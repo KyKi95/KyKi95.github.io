@@ -94,6 +94,7 @@ nav{
 
 .submenu{
    position:absolute;
+   width: 100%;
    min-width:60px;
    text-align: left;
    padding:5px 0;
@@ -154,7 +155,8 @@ ul {
 
 .logo hr{
 	border-top: 2px solid rgba(181, 159, 91, 0.4);
-	width: 51px;
+	width: 100%;
+	max-width: 51px;
 	margin-top: 5px;
 	margin: 0 auto;
 	margin-top: 21px;
@@ -309,7 +311,7 @@ ul {
 .bannercomment a, .banner p{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
-	font-size: 7pt;
+	font-size: 10px;
 	color: rgba(255, 255, 255, 0.54);
 }
 
@@ -353,7 +355,7 @@ div>.bannercomment{
 	font-family: "JoseFinSans";
 	font-weight: bold;
 	text-transform: uppercase;
-	font-size: 8pt;
+	font-size: 11px;
 	letter-spacing: -0.5px;
 	color: #0f0d0e;
 	margin-left: 4px;
@@ -365,13 +367,14 @@ div>.bannercomment{
 	font-style: italic;
 	font-weight: 500;
 	letter-spacing: -0.5px;
-	font-size: 8pt;
+	font-size: 12px;
 	color: #0f0d0e;
 	text-align: center;
 }
 
 .pictureaboutme img{
-	width: 152px;
+	width: 100%;
+	max-width: 152px;
 	position: absolute;
 	margin-left: 27px;
 	margin-top: -81px;
@@ -388,7 +391,8 @@ div>.bannercomment{
 }
 
 .aboutmeinfo p{
-	width: 165px;
+	width: 100%;
+	max-width: 165px;
 	margin: 0 auto;
 	line-height: 19px;
 }
@@ -398,7 +402,8 @@ div>.bannercomment{
 }
 
 .followaboutme img{
-	width: 85px;
+	width: 100%;
+	max-width: 85px;
 	margin-top: 17px;
 }
 
@@ -406,7 +411,7 @@ div>.bannercomment{
 	font-family: "JoseFinSans";
 	font-weight: bold;
 	text-transform: uppercase;
-	font-size: 8.5pt;
+	font-size: 11px;
 	color: #0f0d0e;
 	text-align: center;
 	margin-top: 28px;
@@ -414,7 +419,8 @@ div>.bannercomment{
 
 .newslatter hr, .Follow hr, .Categories hr, .recentpost hr, .sitebar_banner hr, .findus hr, .tags hr{
 	border-top: 2px solid rgba(181, 159, 91, 0.4);
-	width: 48px;
+	width: 100%;
+	max-width: 48px;
 	display: table;
 	margin: 0 auto;
 	margin-top: 7px;
@@ -440,7 +446,7 @@ input {
     background-color:#f4f7f6;
     padding: 15px;
     font-family: 'Open Sans', sans-serif;
-	font-size: 8pt;
+	font-size: 11px;
 	letter-spacing: -0.7px;
 	font-weight: 500;
 	margin-bottom: 16px;
@@ -452,7 +458,7 @@ button {
     font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
-	font-size: 8pt;
+	font-size: 11px;
     color:#fff;
     text-transform:uppercase;
     padding: 12px 0;
@@ -464,14 +470,15 @@ button {
 }
 
 .imagefollow img{
-	width: 67px;
+	width: 100%;
+	max-width: 67px;
 	height: 67px;
 }
 
 .form-search {
     position:relative;
     font-family: 'Open Sans', sans-serif;
-    font-size: 8pt;
+    font-size: 8px;
 	letter-spacing: -0.7px;
 	font-weight: 500;
 	color: #000;
@@ -485,14 +492,16 @@ button {
    position:absolute;
    right:0;
    top:0;
-   width: 37px;
+   width: 100%;
+   max-width: 37px;
    height: 37px;
    padding:0;
 }
 .search-btn::after {
     content: "";
     background-image: url(../img/search.svg);
-    width: 14px;
+    width: 100%;
+    max-width: 14px;
     height: 14px;
     background-size: cover;
     display: block;
@@ -507,14 +516,14 @@ button {
 .listcategories a{
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 8.4pt;
+	font-size: 11.4px;
 	letter-spacing: -0.7px;
 	color: #000;
 }
 
 .listcategories span{
 	font-family: 'Raleway', sans-serif;
-	font-size: 8pt;
+	font-size: 9px;
 	color: #b59f5b;
 	padding-left: 3px;
 }
@@ -539,13 +548,14 @@ button {
 }
 
 .recentpost img{
-	width: 53px;
+	width: 100%;
+	max-width: 53px;
 	height: 53px;
 }
 
 .recentpost p{
 	font-family: 'Open Sans', sans-serif;
-	font-size: 8pt;
+	font-size: 11px;
 	color: rgba(0, 0, 0, 0.54);
 }
 
@@ -554,7 +564,7 @@ button {
 	font-family: "JoseFinSans";
 	font-weight: bold;
 	text-transform: uppercase;
-	font-size: 8pt;
+	font-size: 10px;
 	letter-spacing: -0.5px;
 	color: #0f0d0e;
 }
@@ -575,7 +585,8 @@ button {
 }
 
 .sitebar_banner img{
-	width: 208px;
+	width: 100%;
+	max-width: 208px;
 	height: 288px;
 }
 
@@ -586,7 +597,8 @@ button {
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
-	width: 211px;
+	width: 100%;
+	max-width: 211px;
 	height: 169px;
 }
 
@@ -596,7 +608,7 @@ button {
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: -0.9px;
-	font-size: 7.5pt;
+	font-size: 11px;
 	color: #000;
 }
 
@@ -630,7 +642,7 @@ button {
 	text-transform: uppercase;
 	letter-spacing: -0.8px;
 	line-height: normal;
-	font-size: 13pt;
+	font-size: 17px;
 	color: #0f0d0e;
 }
 
@@ -644,7 +656,7 @@ button {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
-	font-size: 8.5pt;
+	font-size: 12px;
 	letter-spacing: -0.8px;
 	color: #b59f5b;
 	margin-right: 14px;
@@ -662,12 +674,12 @@ button {
 }
 
 .postlist_right>p, .postlist_border{
-	padding: 12px 68px;
+	padding: 12px 70px;
 }
 
 .postlist_right p{
 	font-family: 'Open Sans', sans-serif;
-	font-size: 9.3pt;
+	font-size: 13px;
 	font-weight: 500;
 	letter-spacing: -0.7px;
 	color: #000;
@@ -687,7 +699,7 @@ button {
 .author h3{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
-	font-size: 8pt;
+	font-size: 11px;
 	letter-spacing: -0.7px;
 	color: #000;
 }
@@ -695,7 +707,7 @@ button {
 .date h3{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
-	font-size: 8.3pt;
+	font-size: 11px;
 	letter-spacing: -0.7px;
 	color: rgba(0, 0, 0, 0.54);
 	margin-right: 8px;
@@ -756,7 +768,7 @@ button {
 .sharepost a{
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 7pt;
+	font-size: 10px;
 	color: #0f0d0e;
 	margin-right: initial;
 }
@@ -798,7 +810,7 @@ button {
 	text-decoration: none;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
-	font-size: 8pt;
+	font-size: 11px;
 	color: rgba(15, 13, 14, 0.54);
 	margin-right: initial;
 }
@@ -853,12 +865,14 @@ button {
 }
 
 .containerpost{
-	width: 599px;
+	width: 100%;
+	max-width: 599px;
 	margin-top: 95px;
 }
 
 .sidebar{
-	width: 210px;
+	width: 100%;
+	max-width: 210px;
 	padding-bottom: initial;
 }
 
@@ -878,7 +892,8 @@ button {
 }
 
 .footerfollow img{
-	width: 85px;
+	width: 100%;
+	max-width: 85px;
 	height: 18px;
 	margin-top: 5px;
 }
@@ -980,7 +995,8 @@ button {
 
 .footerphoto img{
 	display: inline-block;
-	width: 172px;
+	width: 100%;
+	max-width: 172px;
 	margin-top: 29px;
 }
 
